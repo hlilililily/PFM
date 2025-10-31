@@ -1,7 +1,7 @@
 import SwiftUI
 
 @main
-struct PersonalFinanceMorandiApp: App {
+struct PFMApp: App {
     @StateObject private var repository: AssetRepository
     private let llmProcessor: LLMAssetCommandProcessor
 
